@@ -173,18 +173,15 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    gap: 30px;
+    gap: 20px;
 }
 .card{
-    width: 24%;
+    width: 300px;
     height: 300px;
     transition: .5s ease;
     margin-bottom: 50px;
     border-radius: 10px;
     box-sizing: border-box;
-}
-.card:hover{
-    box-shadow: 2px 2px 5px 5px crimson;
 }
 .card:hover .card1{
     display: block;
@@ -206,8 +203,9 @@
     margin-left: 35%;
     color: #FF42A5;
 }
-.card img{
+.card-photo img{
     width: 100%;
+    height: 300px;
     
 }
 .card p{
@@ -223,7 +221,7 @@
     align-items: center;
     gap: 120px;
     padding: 100px 120px;
-    margin: 100px auto;
+    margin: 100px auto 50px;
 }
 .instant-contant{
     text-align: right;
@@ -270,6 +268,7 @@
     gap: 10px;
     font-size: var(--font-size);
     margin-bottom: 30px;
+    cursor: pointer;
 }
 .social-link{
     width: 30%;
@@ -280,6 +279,7 @@
     font-size: 24px;
     border-radius: 50%;
     margin-bottom: 20px;
+    cursor: pointer;
 }
 .conditions{
     width: 50%;
@@ -295,5 +295,31 @@
 .privacy{
     font-size: 14px;
     color: rgba(255, 255, 255, 0.60);
-
+}
+/* game-item Section start */
+.game-item {
+    padding: 10px 120px;
+    max-height: 600px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.gm-item li{
+    list-style: none;
+}
+.gm-item li{
+    display: flex;
+    align-items: center;
+}
+.gm-item li p{
+    color: #0B0223;
+    font-size: 14px;
+}
+.gm-item img{
+    margin-right: 5px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
 }
