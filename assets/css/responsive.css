@@ -81,6 +81,27 @@
         width: 30%;
         position: relative;
     }
+    .next-part,.social-link {
+        width: 100%;
+        margin: 0px auto;
+        grid-template-columns: repeat(3, 1fr);
+        margin-bottom: 20px;
+        font-size: 10px;
+    }
+    .social-link   {
+        font-size: 20px;
+    }
+    .conditions{
+        width: 100%;
+        margin: 0px auto;
+        grid-template-columns: repeat(2, 1fr);
+        margin-bottom: 20px;
+        font-size: 10px;
+    }
+    .privacy{
+        font-size: 12px;
+    }
+
     
 }
 
@@ -136,5 +157,25 @@
         height: 20%;
         width: 30%;
         position: relative;
+    }
+    .next-part,.social-link {
+        width: 80%;
+        margin: 0px auto;
+        grid-template-columns: repeat(3, 1fr);
+        margin-bottom: 20px;
+        font-size: 18px;
+    }
+    .social-link   {
+        font-size: 24px;
+    }
+    .conditions{
+        width: 100%;
+        margin: 0px auto;
+        grid-template-columns: repeat(4, 1fr);
+        margin-bottom: 20px;
+        font-size: 12px;
+    }
+    .privacy{
+        font-size: 12px;
     }
 }
