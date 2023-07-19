@@ -155,3 +155,95 @@
 .gaming-content h5,h4{
     color: var(--text-color);
 }
+/* Online game Style  */
+.online-game{
+    max-height: 600px;
+    padding: 20px 120px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    overflow: hidden;
+}
+.online-game >p{
+    color: var(--text-color);
+    font-size: var(--font-size);
+    margin-bottom: 50px;
+}
+.box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+}
+.card{
+    width: 24%;
+    height: 300px;
+    transition: .5s ease;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+.card:hover{
+    box-shadow: 2px 2px 5px 5px crimson;
+}
+.card:hover .card1{
+    display: block;
+}
+.card1{
+    text-align: center;
+    position: relative;
+    bottom: 90%;
+    color: #fff;
+    font-weight: 700;
+    display: none;
+}
+.card1 i {
+    font-size: 25px;
+    margin-top: 30px;
+}
+.card1 p{
+    width: 200px;
+    margin-left: 35%;
+    color: #FF42A5;
+}
+.card img{
+    width: 100%;
+    
+}
+.card p{
+    text-align: left;
+    font-size: 14pxrem;
+    margin-top: 10px;
+}
+/* Online-game Section Star */
+.instant-play{
+    max-height: 600px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 120px;
+    padding: 100px 120px;
+    margin: 100px auto;
+}
+.instant-contant{
+    text-align: right;
+    width: 50%;
+    margin-top: -300px;
+}
+.instant-contant p {
+    color: var(--text-color);
+    font-size: var(--font-size);
+    margin-top: 30px;
+}
+.instant-photo .photo1{
+    width: 90%;
+    height: auto;
+    margin-left: 60px;
+}
+.photo2{
+    position: relative;
+    bottom: 250px;
+    right: 80px;
+    height: 60%px;
+    width: 30%px;
+}

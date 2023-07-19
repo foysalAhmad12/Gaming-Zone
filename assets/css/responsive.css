@@ -1,5 +1,6 @@
 @media screen and (max-width:576px) {
-    .header,.menu-part,.banner-container,.gamming{
+    .header,.menu-part,.banner-container,.gamming,.box,
+    .instant-play{
         flex-direction: column;
     }
     .header{
@@ -39,11 +40,53 @@
         text-align: center;
         width: 80%;
     }
+    .online-game{
+        max-height: 600px;
+        padding: 20px;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .online-game .title{
+        font-size: 25px;
+    }
+    .box {
+        gap: 5px;
+    }
+    .card{
+        width: 80%;
+        height: auto;
+        margin-bottom: 10px;
+    }
+    .online-game >p{
+        margin-top: 20px;
+    }
+    .instant-play{
+        gap: 10px;
+        padding: 10px;
+    }
+    .instant-contant{
+        text-align: center;
+        width: 90%;
+        margin: 0px auto;
+        text-align: center;
+    }
+    .instant-photo .photo1{
+        width: 80%;
+        height: auto;
+    }
+    .photo2{
+        bottom: 120px;
+        right: 5px;
+        height: 20%;
+        width: 30%;
+        position: relative;
+    }
     
 }
 
 @media screen and (min-width: 576px) and (max-width:768px){
-    .header,.menu-part,.gamming{
+    .header,.menu-part,.gamming,
+    .instant-play{
         flex-direction: column;
     }
     .menu-part li{
@@ -74,5 +117,24 @@
         text-align: center;
         width: 80%;
     }
-    
+    .online-game .title{
+        font-size: 35px;
+        margin-bottom: 10px;
+    }
+    .card-content p {
+        text-align: left;
+        font-size: 14px;
+    }
+    .instant-contant{
+        text-align: center;
+        width: 70%;
+        margin: 0px auto;
+    }
+    .photo2{
+        bottom: 120px;
+        right: 5px;
+        height: 20%;
+        width: 30%;
+        position: relative;
+    }
 }
