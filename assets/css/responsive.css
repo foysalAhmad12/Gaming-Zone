@@ -1,0 +1,78 @@
+@media screen and (max-width:576px) {
+    .header,.menu-part,.banner-container,.gamming{
+        flex-direction: column;
+    }
+    .header{
+        padding: 30px 5px;
+    }
+    .menu-part li{
+        margin: 10px 0px;
+    }
+    .menu-part{
+        margin-left: 5px;
+    }
+    .banner-container{
+        padding: 10px 5px;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .banner-text p{
+        text-align: left;
+    }
+    .banner-photo img {
+        width: 80%;
+        height: auto;
+        margin-left: 40px;
+    }
+    .banner-text p{
+        font-size: 16px;
+    }
+    .button-section{
+        margin-top: 20px;
+    }
+    .gamming{
+        text-align: center;
+        padding: 20px 10px;
+        margin: 30px auto;
+    }
+    .gaming-content{
+        text-align: center;
+        width: 80%;
+    }
+    
+}
+
+@media screen and (min-width: 576px) and (max-width:768px){
+    .header,.menu-part,.gamming{
+        flex-direction: column;
+    }
+    .menu-part li{
+        margin: 10px 0px;
+    }
+    .banner-container{
+        padding: 10px 30px;
+    }
+    .menu-part{
+        margin-left: 0px;
+    }
+    .banner-container{
+        padding: 30px ;
+    }
+    .banner-photo img {
+        width: 100%;
+        height: auto;
+        margin: 0px auto;
+        padding-right: 20px;
+    }
+    .banner-text p{
+        font-size: 16px;
+    }
+    .button-section{
+        margin-top: 20px;
+    }
+    .gaming-content{
+        text-align: center;
+        width: 80%;
+    }
+    
+}
