@@ -298,13 +298,19 @@
 }
 /* game-item Section start */
 .game-item {
-    padding: 10px 120px;
+    padding: 10px 200px;
     max-height: 600px;
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 10px;
-    margin-bottom: 50px;
-    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 100px;
+}
+.gm-item:hover li{
+    border: 1px solid rosybrown;
+    padding: 10px 20px;
+    border-radius: 20px;
 }
 .gm-item li{
     list-style: none;
