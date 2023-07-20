@@ -52,6 +52,7 @@
     font-size: 2.4rem;
     margin-left: 5px;
     font-weight: 700;
+    cursor: pointer;
 }
 .primary{
     color: var(--Primary-color);
